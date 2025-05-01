@@ -10,8 +10,16 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-native-community/datetimepicker": "^8.3.0",
     "react": "19.0.0",
-    "react-native": "0.79.1"
+    "react-native": "0.79.1",
+    "react-native-date-picker": "^5.0.12",
+    "react-native-paper": "^5.14.0",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-safe-area-view": "^1.1.1",
+    "react-native-uuid": "^2.0.3",
+    "react-native-vector-icons": "^10.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -35,5 +43,8 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "resolutions": {
+    "react-native-safe-area-context": "^5.4.0"
   }
 }
